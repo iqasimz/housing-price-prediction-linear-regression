@@ -35,7 +35,7 @@ y = df_encoded['SalePrice']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Step 8: Print to confirm
-print("✅ Data ready!")
+print("Data ready!")
 print("Train set:", X_train.shape)
 print("Test set:", X_test.shape)
 
@@ -55,7 +55,7 @@ mae = mean_absolute_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
 # Step 13: Print metrics
-print("✅ Model Evaluation:")
+print("Model Evaluation:")
 print(f"RMSE (Root Mean Squared Error): {rmse:.2f}")
 print(f"MAE (Mean Absolute Error): {mae:.2f}")
 print(f"R² Score (Explained Variance): {r2:.3f}")
